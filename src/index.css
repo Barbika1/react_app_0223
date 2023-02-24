@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  font-family:sans-serif;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+
+*{
+  box-sizing: border-box}
+
+
+#game{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;}
+
+
+  #game .scene{
+  width: 100vw;
+  height: 100vh;
+  flex-shrink: 0; 
+  }
+
+#game #player {
+  width: 80px;
+  position: absolute;
+}
+
+#game #player img{
+  width: 100%;
+}
+
+#fullscreen-button {
+  height: 50px;
+  position: absolute;
+  right: 20px;
+  top: 20px;
+}
